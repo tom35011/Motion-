@@ -39,3 +39,8 @@ set y to [Y] for [sprite] [mode]
 point in direction [angle] for [sprite] [mode]
 
 set rotation style [style] for [sprite] [mode]
+
+previously included the following blocks that were removed (they didn't work) :
+
+point [sprite] towards [sprite]
+if [sprite] on edge, bounce
