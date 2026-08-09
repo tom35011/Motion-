@@ -13,18 +13,12 @@ Point sprites in any direction
 
 Choose whether clones are affected
 
-Uses official Scratch Motion color palette
-
 Clean, simple, Scratch‑style block design
 
 📦 Included Blocks
 Motion ++ currently includes:
 
 move [sprite] [steps] steps [mode]
-
-turn cw [sprite] [degrees] [mode]
-
-turn ccw [sprite] [degrees] [mode]
 
 go to x [X] y [Y] for [sprite] [mode]
 
