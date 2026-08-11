@@ -15,7 +15,6 @@
       return {
         id: "MotionPlusPlus",
         name: "Motion ++",
-        menuIconURI: menuIconURI,
 
         // Motion block colors (same as Scratch)
         color1: "#4C97FF",
@@ -36,7 +35,7 @@
           {
             opcode: "turnRight",
             blockType: Scratch.BlockType.COMMAND,
-            text: "turn cw [SPRITE] [DEG] degrees [MODE]",
+            text: "turn right [SPRITE] [DEG] degrees [MODE]",
             arguments: {
               SPRITE: { type: Scratch.ArgumentType.STRING, menu: "menuSprites" },
               DEG: { type: Scratch.ArgumentType.NUMBER, defaultValue: 15 },
@@ -46,7 +45,7 @@
           {
             opcode: "turnLeft",
             blockType: Scratch.BlockType.COMMAND,
-            text: "turn ccw [SPRITE] [DEG] degrees [MODE]",
+            text: "turn left [SPRITE] [DEG] degrees [MODE]",
             arguments: {
               SPRITE: { type: Scratch.ArgumentType.STRING, menu: "menuSprites" },
               DEG: { type: Scratch.ArgumentType.NUMBER, defaultValue: 15 },
