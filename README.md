@@ -1,3 +1,5 @@
+Notice : to use in turbowarp, you must unsandbox the extension or TurboWarp will crash.
+
 Enhanced motion controls for all sprites in Scratch/CodeTorch.
 
 Motion ++ adds powerful new movement blocks that let you control other sprites, not just the one running the script. This makes it perfect for advanced projects, AI systems, multi‑character games, and custom engines.
