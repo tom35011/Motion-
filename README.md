@@ -1,4 +1,4 @@
-Notice : to use in turbowarp, you must unsandbox the extension or TurboWarp will crash.
+**Notice : to use in turbowarp, you must unsandbox the extension or TurboWarp will crash.**
 
 Enhanced motion controls for all sprites in Scratch/CodeTorch.
 
