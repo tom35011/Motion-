@@ -1,6 +1,8 @@
 // Name: Motion ++
 // ID: SPMotionPlusPlus
 // Description: Enhanced motion controls for other sprites. Based on Scratch Motion blocks.
+// By : tom350 <https://scratch.mit.edu/users/tom350/>
+// (no Original field)
 // License: MIT
 
 (function (Scratch) {
