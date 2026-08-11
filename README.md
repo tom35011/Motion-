@@ -1,4 +1,4 @@
-#Motion++ extension documentation
+# Motion++ extension documentation
 
 Motion ++ adds powerful new movement blocks that let you control other sprites, not just the one running the script. This makes it perfect for advanced projects, AI systems, multi‑character games, and custom engines.
 
