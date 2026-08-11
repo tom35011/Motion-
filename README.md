@@ -4,7 +4,7 @@ Enhanced motion controls for all sprites in Scratch/CodeTorch.
 
 Motion ++ adds powerful new movement blocks that let you control other sprites, not just the one running the script. This makes it perfect for advanced projects, AI systems, multi‑character games, and custom engines.
 
-✨ Features
+**✨ Features**
 Move any sprite from any script
 
 Turn sprites clockwise or counter‑clockwise
@@ -17,7 +17,7 @@ Choose whether clones are affected
 
 Clean, simple, Scratch‑style block design
 
-📦 Included Blocks
+**Included Blocks**
 Motion ++ currently includes:
 
 move [sprite] [steps] steps [mode]
