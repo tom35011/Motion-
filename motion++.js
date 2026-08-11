@@ -6,17 +6,12 @@
 (function (Scratch) {
   "use strict";
 
-  // ============================
-  // EXTENSION ICON
-  // ============================
-  
   class MotionPlusPlus {
     getInfo() {
       return {
         id: "MotionPlusPlus",
         name: "Motion ++",
 
-        // Motion block colors (same as Scratch)
         color1: "#4C97FF",
         color2: "#4280FF",
         color3: "#3373CC",
@@ -187,14 +182,24 @@
       for (const t of targets) t.setXY(args.X, args.Y);
     }
 
+    // ⭐ FIXED VERSION — uses goToXY logic
     changeX(args) {
       const targets = this._getTargets(args.SPRITE, args.MODE);
-      for (const t of targets) t.setXY(t.x + args.DX, t.y);
+      for (const t of targets) {
+        const newX = t.x + args.DX;
+        const newY = t.y;
+        t.setXY(newX, newY);
+      }
     }
 
+    // ⭐ FIXED VERSION — uses goToXY logic
     changeY(args) {
       const targets = this._getTargets(args.SPRITE, args.MODE);
-      for (const t of targets) t.setXY(t.x, t.y + args.DY);
+      for (const t of targets) {
+        const newX = t.x;
+        const newY = t.y + args.DY;
+        t.setXY(newX, newY);
+      }
     }
 
     setX(args) {
